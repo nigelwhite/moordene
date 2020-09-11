@@ -1,0 +1,50 @@
+{
+  "git.ignoreLimitWarning": true,
+
+  // Mainly for static files
+
+  "liveServer.settings.useWebExt": true,
+
+  // This means that you change your real URL (current PHP url)
+  // to another URL (which Live Sever starts).
+
+  "liveServer.settings.proxy": {
+    "enable": true, // i. enabled
+    "baseUri": "/", // ii. workspace
+    "proxyUri": "http://moordene.ddev.site:81" // iii. actual address. This needs checking on each run of ddev start. Use ddev's url
+  },
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/web/themes/custom/sub_bootstrap4/css" // note syntax of path which has to start with slash
+    }
+  ],
+
+  "liveSassCompile.settings.includeItems": [
+    "web/themes/custom/sub_bootstrap/scss/*.scss" // note syntax of path which must not start with slash
+  ],
+
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+
+  "liveSassCompile.settings.excludeList": [".vscode/**", "css/**"]
+
+  // "liveSassCompile.settings.formats": [
+  //   {
+  //     "format": "expanded",
+  //     "extensionName": ".css",
+  //     "savePath": "/web/themes/custom/sub_bootstrap4/css/style.css" // note syntax of path which has to start with slash
+  //   }
+  // ],
+
+  // "liveSassCompile.settings.includeItems": [
+  //   "web/themes/custom/sub_bootstrap/scss/*.scss" // note syntax of path which must not start with slash
+  // ],
+
+  // "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+
+  // "liveSassCompile.settings.generateMap": true,
+  // "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+}
