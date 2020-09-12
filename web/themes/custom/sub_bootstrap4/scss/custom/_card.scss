@@ -2,5 +2,6 @@
   img {
     float: left;
     @extend .img-fluid;
+    @extend .card-img-top;
   }
 }
