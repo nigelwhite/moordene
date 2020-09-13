@@ -2,6 +2,10 @@
   float: left;
 }
 
+.one-image img {
+  width: 300px;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -476,7 +480,7 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid, .card img {
+.img-fluid, .card img, .one-image img {
   max-width: 100%;
   height: auto;
 }
@@ -5191,6 +5195,7 @@ input[type="button"].btn-block {
 
 .card-img,
 .card-img-top,
+.card img,
 .card-img-bottom {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -5198,7 +5203,8 @@ input[type="button"].btn-block {
 }
 
 .card-img,
-.card-img-top {
+.card-img-top,
+.card img {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
@@ -5263,7 +5269,7 @@ input[type="button"].btn-block {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top,
+  .card-group > .card:not(:last-child) .card-img-top, .card-group > .card:not(:last-child) img,
   .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
@@ -5275,7 +5281,7 @@ input[type="button"].btn-block {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child) .card-img-top, .card-group > .card:not(:first-child) img,
   .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
@@ -9119,7 +9125,8 @@ button.bg-dark:focus {
 }
 
 .mr-auto,
-.mx-auto {
+.mx-auto,
+.one-image img {
   margin-right: auto !important;
 }
 
@@ -9129,7 +9136,8 @@ button.bg-dark:focus {
 }
 
 .ml-auto,
-.mx-auto {
+.mx-auto,
+.one-image img {
   margin-left: auto !important;
 }
 
