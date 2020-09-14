@@ -1,10 +1,24 @@
 @charset "UTF-8";
+.region-content {
+  margin-top: 50px;
+}
+
 .card img {
   float: left;
 }
 
+.one-image-container {
+  margin: 0 100px;
+  padding: 30px;
+  border: 10px #f0f0f0 solid;
+}
+
+.one-image img {
+  margin-bottom: 30px;
+}
+
 .one-image-body {
-  background-color: blue;
+  margin: 20px 100px 10px 100px;
 }
 
 /*!
@@ -475,7 +489,7 @@ mark,
   content: "\2014\A0";
 }
 
-.img-fluid, .card img {
+.img-fluid, .card img, .one-image img {
   max-width: 100%;
   height: auto;
 }
@@ -6327,7 +6341,7 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block {
+.d-block, .one-image img {
   display: block !important;
 }
 
@@ -7919,7 +7933,8 @@ button.bg-dark:focus {
 }
 
 .mr-auto,
-.mx-auto {
+.mx-auto,
+.one-image img {
   margin-right: auto !important;
 }
 
@@ -7929,7 +7944,8 @@ button.bg-dark:focus {
 }
 
 .ml-auto,
-.mx-auto {
+.mx-auto,
+.one-image img {
   margin-left: auto !important;
 }
 
@@ -9707,7 +9723,9 @@ button.bg-dark:focus {
   text-align: right !important;
 }
 
-.text-center {
+.text-center, .one-image-body, .one-image-date,
+.one-image-tags,
+.one-image-location {
   text-align: center !important;
 }
 

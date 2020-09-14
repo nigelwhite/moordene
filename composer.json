@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9",
         "drupal/ds": "^3.9",
         "drupal/field_group": "^3.1",
+        "drupal/hierarchical_term_formatter": "^1.2",
         "drupal/module_filter": "^3.1",
         "drupal/shs": "^1.0",
         "drupal/views_bootstrap": "^4.3",
