@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .region-content {
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 .card img {
@@ -489,7 +490,7 @@ mark,
   content: "\2014\A0";
 }
 
-.img-fluid, .card img, .one-image img {
+.img-fluid, img, .card img, .one-image img {
   max-width: 100%;
   height: auto;
 }
