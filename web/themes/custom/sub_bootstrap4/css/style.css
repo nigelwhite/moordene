@@ -22,6 +22,14 @@
   margin: 20px 100px 10px 100px;
 }
 
+.term-grid-name {
+  font-size: 1em;
+}
+
+.term-grid-local {
+  width: 400px;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -6284,7 +6292,7 @@ button.bg-dark:focus {
   border-radius: 0.2rem !important;
 }
 
-.rounded {
+.rounded, .term-grid-image a .media img {
   border-radius: 0.25rem !important;
 }
 
@@ -6342,7 +6350,7 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block, .one-image img, .term-grid-image a .media img, .term-grid-image a .media div {
+.d-block, .one-image img, .term-grid-image a .media img, .term-grid-image a .media div, .term-grid-local {
   display: block !important;
 }
 
@@ -7568,7 +7576,7 @@ button.bg-dark:focus {
   margin: 0.5rem !important;
 }
 
-.mt-2,
+.mt-2, .term-grid-name,
 .my-2 {
   margin-top: 0.5rem !important;
 }
@@ -7937,7 +7945,8 @@ button.bg-dark:focus {
 .mx-auto,
 .one-image img,
 .term-grid-image a .media img,
-.term-grid-image a .media div {
+.term-grid-image a .media div,
+.term-grid-local {
   margin-right: auto !important;
 }
 
@@ -7950,7 +7959,8 @@ button.bg-dark:focus {
 .mx-auto,
 .one-image img,
 .term-grid-image a .media img,
-.term-grid-image a .media div {
+.term-grid-image a .media div,
+.term-grid-local {
   margin-left: auto !important;
 }
 
