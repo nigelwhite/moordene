@@ -30,6 +30,34 @@
   width: 400px;
 }
 
+.blog-row {
+  margin: 20px;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.blog-row:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.blog-image .media div {
+  width: 220px;
+}
+
+.blog-body {
+  font-size: 1.1em;
+  margin: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -6292,7 +6320,7 @@ button.bg-dark:focus {
   border-radius: 0.2rem !important;
 }
 
-.rounded, .term-grid-image a .media img {
+.rounded, img, .term-grid-image a .media img {
   border-radius: 0.25rem !important;
 }
 
@@ -6366,7 +6394,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, .blog-row {
   display: flex !important;
 }
 
@@ -6600,7 +6628,7 @@ button.bg-dark:focus {
   padding-top: 100%;
 }
 
-.flex-row {
+.flex-row, .blog-row {
   flex-direction: row !important;
 }
 
@@ -6660,7 +6688,7 @@ button.bg-dark:focus {
   justify-content: center !important;
 }
 
-.justify-content-between {
+.justify-content-between, .blog-row {
   justify-content: space-between !important;
 }
 
@@ -6676,7 +6704,7 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center, .blog-row {
   align-items: center !important;
 }
 
