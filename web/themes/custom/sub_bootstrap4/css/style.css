@@ -4,6 +4,14 @@
   margin-bottom: 70px;
 }
 
+.pager__items {
+  margin-top: 20px;
+}
+
+.feed-icons {
+  display: none;
+}
+
 .card img {
   float: left;
 }
@@ -6378,7 +6386,7 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block, .one-image img, .term-grid-image a .media img, .term-grid-image a .media div, .term-grid-local {
+.d-block, .pager__items, .one-image img, .term-grid-image a .media img, .term-grid-image a .media div, .term-grid-local {
   display: block !important;
 }
 
@@ -7971,6 +7979,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
+.pager__items,
 .one-image img,
 .term-grid-image a .media img,
 .term-grid-image a .media div,
@@ -7985,6 +7994,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
+.pager__items,
 .one-image img,
 .term-grid-image a .media img,
 .term-grid-image a .media div,
