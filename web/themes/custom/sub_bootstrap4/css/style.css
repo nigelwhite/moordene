@@ -6342,7 +6342,7 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block, .one-image img {
+.d-block, .one-image img, .term-grid-image a .media img, .term-grid-image a .media div {
   display: block !important;
 }
 
@@ -7935,7 +7935,9 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
-.one-image img {
+.one-image img,
+.term-grid-image a .media img,
+.term-grid-image a .media div {
   margin-right: auto !important;
 }
 
@@ -7946,7 +7948,9 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
-.one-image img {
+.one-image img,
+.term-grid-image a .media img,
+.term-grid-image a .media div {
   margin-left: auto !important;
 }
 
@@ -9726,7 +9730,7 @@ button.bg-dark:focus {
 
 .text-center, .one-image-body, .one-image-date,
 .one-image-tags,
-.one-image-location {
+.one-image-location, .term-grid-name {
   text-align: center !important;
 }
 
