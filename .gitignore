@@ -17,8 +17,10 @@
 # Ignore Drupal's file directory
 /web/sites/*/files/
 
-# Ignore local storage
+# Ignore local dev stuff
 /localstore/
+.ddev
+.vscode
 
 # Ignore local dev resources
 /localdev/
@@ -26,3 +28,4 @@
 # ignore custom theme tooling
 /web/themes/custom/sub_bootstrap4/node_modules/
 /web/themes/custom/sub_bootstrap4/scss/
+
