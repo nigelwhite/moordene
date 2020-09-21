@@ -16,18 +16,17 @@
   float: left;
 }
 
-.one-image-container {
-  margin: 0 100px;
-  padding: 30px;
+.ds-2col-stacked {
   border: 10px #f0f0f0 solid;
 }
 
-.one-image img {
-  margin-bottom: 30px;
+.oneimage-row {
+  display: flex;
+  justify-content: space-between;
 }
 
-.one-image-body {
-  margin: 20px 100px 10px 100px;
+.group-left {
+  flex-shrink: 0;
 }
 
 .term-grid-name {
