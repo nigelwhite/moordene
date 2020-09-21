@@ -4,3 +4,10 @@
  * @file
  * sub_bootstrap4 theme file.
  */
+
+function sub_bootstrap4_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  // Add content type suggestions.
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    array_splice($suggestions, 1, 0, 'page__node__' . $node->getType());
+  }
+}
