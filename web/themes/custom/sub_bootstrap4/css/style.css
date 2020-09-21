@@ -12,6 +12,11 @@
   display: none;
 }
 
+.navbar-nav .nav-item a {
+  font-size: 1.25rem;
+  color: #f8f9fa !important;
+}
+
 .card img {
   float: left;
 }
@@ -57,14 +62,11 @@
 @media (min-width: 992px) {
   .group-right {
     margin: 0 20px;
+    width: 40%;
   }
 
   .oneimage-row {
     flex-direction: row;
-  }
-
-  .group-right {
-    max-width: 40%;
   }
 
   .oneimage-location {
