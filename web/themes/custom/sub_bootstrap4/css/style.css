@@ -17,6 +17,14 @@
   color: #f8f9fa !important;
 }
 
+.navbar {
+  min-height: 102px;
+}
+
+#block-shortcuts ul {
+  list-style: none;
+}
+
 .card img {
   float: left;
 }
@@ -53,6 +61,7 @@
 
 .one-image-tag {
   border: 1px solid black;
+  text-transform: lowercase;
 }
 
 .one-image-tags a:hover {
