@@ -24,6 +24,10 @@
 #block-shortcuts ul {
   list-style: none;
 }
+#block-shortcuts ul li {
+  display: inline;
+  margin-right: 30px;
+}
 
 .card img {
   float: left;
