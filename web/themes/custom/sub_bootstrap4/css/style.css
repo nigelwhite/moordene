@@ -37,10 +37,12 @@
 
 .navbar-brand {
   padding: 0 !important;
+  height: 100px !important;
 }
 
 .navbar-dark .navbar-brand img {
   filter: none !important;
+  height: 100px !important;
 }
 
 .card img {
