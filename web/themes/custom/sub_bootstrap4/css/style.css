@@ -97,6 +97,12 @@
   .ds-2col-stacked {
     padding: 30px;
   }
+
+  .one-image img {
+    max-height: 600px;
+    height: 70%;
+    width: auto;
+  }
 }
 .term-grid-name {
   font-size: 1em;
