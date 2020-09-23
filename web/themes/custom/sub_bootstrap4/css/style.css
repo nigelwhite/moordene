@@ -35,6 +35,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.navbar-dark .navbar-brand img {
+  filter: none;
+}
+
 .card img {
   float: left;
 }
