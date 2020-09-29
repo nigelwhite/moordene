@@ -18,7 +18,7 @@
 }
 
 .navbar {
-  min-height: 102px;
+  min-height: 80px;
 }
 
 #block-shortcuts ul {
@@ -35,16 +35,18 @@
   transition: all 0.2s ease-in-out;
 }
 
-.navbar-brand {
+.navbar-brand img {
   padding: 0 !important;
-  height: 100px !important;
-}
-
-.navbar-dark .navbar-brand img {
+  height: 50px !important;
+  margin: 15px 0;
   filter: none !important;
-  height: 100px !important;
 }
 
+@media (min-width: 992px) {
+  .navbar-brand img {
+    height: 70px !important;
+  }
+}
 .card img {
   float: left;
 }
@@ -6548,7 +6550,7 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block, .pager__items, .one-image img, .media--view-mode-teaser .field--name-field-media-image img,
+.d-block, article .field--type-image, .pager__items, .one-image img, .media--view-mode-teaser .field--name-field-media-image img,
 .term-grid-image a .media img, .term-grid-image a .media div, .term-grid-local, .grid-image a .media .field--type-image img {
   display: block !important;
 }
@@ -8142,6 +8144,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
+article .field--type-image,
 .pager__items,
 .one-image img,
 .media--view-mode-teaser .field--name-field-media-image img,
@@ -8159,6 +8162,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
+article .field--type-image,
 .pager__items,
 .one-image img,
 .media--view-mode-teaser .field--name-field-media-image img,
