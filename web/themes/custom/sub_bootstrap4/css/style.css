@@ -9947,7 +9947,7 @@ article .field--type-image,
   text-align: right !important;
 }
 
-.text-center, .one-image-body, .one-image-date, .oneimage-location, .one-image-tags, .term-grid-name {
+.text-center, .one-image-date, .oneimage-location, .one-image-tags, .term-grid-name {
   text-align: center !important;
 }
 
