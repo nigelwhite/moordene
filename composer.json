@@ -28,7 +28,7 @@
         "drupal/hierarchical_term_formatter": "^1.2",
         "drupal/module_filter": "^3.1",
         "drupal/shs": "^1.0",
-        "drupal/stage_file_proxy": "^1.0",
+        "drupal/stage_file_proxy": "^1.1",
         "drupal/views_bootstrap": "^4.3",
         "drush/drush": "^10.3"
     },
