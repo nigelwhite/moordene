@@ -1,0 +1,33 @@
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+tr {
+  height: 4rem;
+}
+
+td{
+  padding: 1rem;
+  min-width: 6rem;
+}
+
+.good {
+  background-color: #b8ff95;
+}
+
+th {
+  font-weight: 800;
+  padding: 1rem;
+}
+
+.highlight {
+  background-color: #FFFF00;
+}
+
+.bad {
+  background-color: #ff8993;
+}

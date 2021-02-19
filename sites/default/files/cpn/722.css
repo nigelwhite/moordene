@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+tr {
+  height: 4rem;
+}
+
+td{
+  width: 6rem;
+  padding: 1rem;
+}
+
+th {
+  font-weight: 800;
+}
