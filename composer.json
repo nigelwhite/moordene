@@ -16,7 +16,6 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "composer/semver": "1.7.1",
         "drupal/admin_toolbar": "^3.0",
         "drupal/bootstrap4": "^2.1",
         "drupal/bootstrap_layouts": "^5.2",
@@ -24,6 +23,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/cshs": "^2.0",
         "drupal/ds": "^3.9",
         "drupal/field_group": "^3.1",
         "drupal/hierarchical_term_formatter": "^1.2",
