@@ -24,6 +24,7 @@
 
 # Ignore local dev resources
 /localdev/
+/app/
 
 # ignore custom theme tooling
 /web/themes/custom/sub_bootstrap4/node_modules/
