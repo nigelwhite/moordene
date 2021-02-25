@@ -25,6 +25,7 @@
 # Ignore local dev resources
 /localdev/
 /app/
+readmeNW.md
 
 # ignore custom theme tooling
 /web/themes/custom/sub_bootstrap4/node_modules/
