@@ -27,6 +27,7 @@
         "drupal/ds": "^3.9",
         "drupal/field_group": "^3.1",
         "drupal/hierarchical_term_formatter": "^1.2",
+        "drupal/media_pdf_thumbnail": "^3.7",
         "drupal/module_filter": "^3.1",
         "drupal/shs": "^1.0",
         "drupal/stage_file_proxy": "^1.1",
