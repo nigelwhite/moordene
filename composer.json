@@ -30,7 +30,7 @@
         "drupal/hierarchical_term_formatter": "^1.2",
         "drupal/media_pdf_thumbnail": "^3.7",
         "drupal/module_filter": "^3.1",
-        "drupal/shs": "^1.0",
+        "drupal/shs": "^2.0@RC",
         "drupal/stage_file_proxy": "^1.1",
         "drupal/views_bootstrap": "^4.3",
         "drush/drush": "^10.3",
