@@ -103,6 +103,12 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/media_pdf_thumbnail": {
+                "Route 'view.pdf_image_entity.list' does not exist": "https://www.drupal.org/files/issues/2022-01-26/3258604-view.pdf_image_entity.list_route_doesnt_exist.patch"
+            }
         }
     }
 }
