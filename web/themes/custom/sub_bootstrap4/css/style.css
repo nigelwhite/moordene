@@ -6876,6 +6876,7 @@ img,
 .media--view-mode-teaser .field--name-field-media-image img,
 .term-grid-image a .media img {
   border-radius: 0.25rem !important;
+  border: black 1px solid;
 }
 
 .rounded-top {
