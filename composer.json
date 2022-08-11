@@ -24,7 +24,7 @@
         "drupal/coffee": "^1.0",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "9.3.9",
+        "drupal/core-recommended": "9.4.5",
         "drupal/cshs": "^2.0",
         "drupal/ds": "^3.9",
         "drupal/field_group": "^3.1",
