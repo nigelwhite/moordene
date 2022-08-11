@@ -144,12 +144,13 @@ body {
     padding: 10px 30px 10px 10px;
   }
 
-  .blog-body {
-    width: 500px;
+  .blog-row span p {
+    padding: 0 2rem;
   }
+
   .blog-body p {
     white-space: nowrap;
-    width: 500px;
+    max-width: 50%;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0;
